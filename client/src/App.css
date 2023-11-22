@@ -8,6 +8,7 @@
 }
 .link-generation-card{
   background-color: white;
+  height: 300px;
   border-radius: 5px;
   padding: 20px;
   box-shadow:  0 0 10px rgba(0,0,0,0.2);
@@ -43,4 +44,22 @@
 }
 .copy-icon{
   cursor: pointer;
+}
+.link-card{
+  background-color: #fff;
+  padding: 5px 10px;
+  margin: 10px;
+  
+  border-radius: 10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2) ;
+}
+.all-links-container{
+  height: 80vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none ;
+  scrollbar-width: 1px;
+
+}
+.all-links-container::-webkit-scrollbar{
+  display: none;
 }
