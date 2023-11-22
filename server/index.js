@@ -29,7 +29,7 @@ app.post("/link", async (req,res)=>{
             data:{
                 url:savedLink.url,
                 slug: savedLink.slug,
-                link:`${process.env.BASE_URL}/${savedLink.slug}`
+                shortUrl:`${process.env.BASE_URL}/${savedLink.slug}`
             },
             message :"Links Saved Successfully"
         })
